@@ -1,5 +1,3 @@
-//We are using a docker, cause using mysql and mariadb, can be troublesome to setup
-
 //download the image via `docker pull mysql:latest` OR `docker pull mysql:versionNumber`
 
 //build and run via `docker run --name mysql-container -d -p 3306:3306 -v /home/{path where you want the db of the container to be}:/var/lib/mysql -e MYSQL_ROOT_PASSWORD={yourPassword} {imageName}` 
