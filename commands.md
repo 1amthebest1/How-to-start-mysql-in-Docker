@@ -1,6 +1,6 @@
 //download the image via `docker pull mysql:latest` OR `docker pull mysql:versionNumber`
 
-//build and run via `docker run --name mysql-container -d -p 3306:3306 -v /home/{path where you want the db of the container to be}:/var/lib/mysql -e MYSQL_ROOT_PASSWORD={yourPassword} {imageName}` 
+//build and run via `docker run --name mysql-container -d -p 3306:3306 -v /home/{path where you want the db of the container to be}:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root {imageName}` 
 
 //then create a bash shell on the container by using `docker exec -it {container id} /bin/bash` OR login from the box using `mysql -h 127.0.0.1 -P 3306 -u root -p `
 
