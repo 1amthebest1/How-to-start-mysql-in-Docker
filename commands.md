@@ -14,7 +14,7 @@
 
 //enter `create table users (email varchar(255), password varchar(255));`
 
-//enter `GRANT INSERT, SELECT, DELETE ON .* TO 'testUser'@'localhost';`
+//enter `GRANT INSERT, SELECT, DELETE ON testDatabase.* TO 'testUser'@'localhost';`
 
 //enter `flush privileges;`
 
